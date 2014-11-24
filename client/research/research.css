@@ -1,0 +1,9 @@
+article img { width: 100%; }
+
+.showOnClick {
+	display:none;
+}
+
+article .preview p {
+	font-size:0.8em;
+}

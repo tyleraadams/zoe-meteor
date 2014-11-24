@@ -1,0 +1,15 @@
+
+.profile_photo {
+	background: url('images/zoe.jpg') no-repeat 20% center;
+	background-size: cover;
+	width:250px;
+	height:250px;
+	/*border-radius:50%;*/
+	/*border:5px solid #e14d41;*/
+	
+}
+
+#about-text {
+	
+
+}

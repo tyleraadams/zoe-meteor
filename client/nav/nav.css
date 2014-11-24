@@ -1,0 +1,24 @@
+/*-------- NAV ------*/
+
+nav li {
+	display:inline;
+	margin-right:50px;
+}
+
+nav li:last-child {
+	margin-right:0;
+}
+
+nav {
+	padding:12px;
+	position:fixed;
+	background:#19698c;
+	width:100%;
+	top:0;
+	z-index:1001;
+	text-align: center;
+}
+
+nav a {
+	color:white;
+}

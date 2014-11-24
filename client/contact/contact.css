@@ -1,0 +1,13 @@
+#contact input, #contact textarea{
+	width:33%;
+	display:block;
+	/*height:25px;*/
+	border:1px solid black;
+	outline:none;
+	background:white;
+	resize:none;
+	border-radius:5px;
+	margin:10px auto 0 auto;
+	padding:10px;
+	
+}

@@ -1,65 +1,22 @@
-
-<head>
-	<title>Zoe Pearson</title>
-	<link href='http://fonts.googleapis.com/css?family=Noto+Sans:400,700' rel='stylesheet' type='text/css'>
-</head>
-<body>
-
-	{{>main}}
-	{{>cv}}
-	{{>contact}}
-</body>
-
-
-<template name="main">
-	<nav>
-		<ul>
-			<li><a href="research.html">Research</a></li>
-			<li><a href="teaching.html">Teaching</a></li>
-			<li><a href="cv.html">CV</a></li>
-			<li><a href="contact.html">Contact</a></li>
-		</ul>
-	</nav>
-	<header id="welcome">
-		<div class="filter"></div>
-		<h1>Zoe Pearson </h1>
-		<p>PhD Candidate, Department of Geography, The Ohio State University</p>
-	</header>
-	<section id="about">
-		<div>
-
-			<h1>About</h1>
-			<div class="profile_photo"></div>
-			<div id="about-text">
-			<p><span class="first_letter">I</span> am a Ph.D. candidate in Geography (human-environment, feminist, political) at Ohio State University, with a completed graduate minor in Women&apos;s, Gender and Sexuality Studies.</p>
-			<div class="showOnClick">
-			 <p>My scholarly interests include nature-society relations & political ecology, &ldquo;drug war&rdquo; geopolitics, feminist studies, socio-environmental justice, conservation & environmental change, and resource conflict in the Americas. </p>
-
-			<p>The two main research projects that I am currently pursuing look at how, in different ways, counter-narcotics politics impact people and the environment in Bolivia and Honduras.</p>
-
-			<p>In 2010 I earned my MA at Ohio State in geography. I earned my BA in Geography at UCLA in 2005, with a minor in political science.</p>
-			</div>
-			</div>
-			
-		</div>
-	</section>
+<template name="research">
 
 	<section id="research">
-		
+		<div class="grid grid-pad">
 		<div class="article-wrapper">
 		<h1>Research</h1>
+		<div class="col-1-3">
 		<article data-name="bolivia">
 			<div class="preview">
 			<img src="images/research/DryingCocaYungas.jpg">
  			<div class="desc">
  			<h3>Community-based coca control, environmental change, and drug war legacies in Bolivia</h3>
 
- 			<p>This project brings attention to Bolivia’s new approach and more generally to some of the grounded and embodied dynamics of illegal and illicit substance control.</p>
+ 			<p>This project brings attention to Bolivia’s new approach to coca control and more generally to some of the grounded and embodied dynamics of illegal and illicit substance control.</p>
 
- 			<img width="30" src="images/research/BO.png">
+ 			<!-- <img width="30" src="images/research/BO.png"> -->
  			</div>
  			</div>
- 			<div class="showOnClick">
+ 			<div class="">
 			<p><span class="first_letter">U</span>nder reforms by coca union leader turned Bolivia’s President Evo Morales, registered coca producers can now produce a limited amount of the culturally and medicinally important coca plant without fear of violent eradication. According to the United Nations, the new “social control” method of controlling coca leaf production has lead to a marked decline in net land under coca cultivation in 2011, 2012, and 2013. And yet Bolivia’s approach to what has long been the United States’ primary tactic of narcotics control in Andean South America, namely coca eradication, has gone mostly unrecognized and remains poorly understood elsewhere.</p>
 			
 			<p class="standalone">In order to better understand the logics behind, failures of, and possibilities for drug control reform in the Americas, this project brings attention to Bolivia’s new approach and more generally to some of the grounded and embodied dynamics of illegal and illicit substance control.</p> 
@@ -75,8 +32,9 @@
 				</p>
 			</div>
 			</div>
-		</article>			
-
+		</article>
+		</div>		
+		<div class="col-1-3">
 		<article data-name="honduras">
 			<div class="preview">
 			<img src="images/research/honduras.jpg">
@@ -102,7 +60,10 @@
 			</div>
 		</div>
 		</article>
+		</div>
 
+
+		<div class="col-1-3">
 		<article data-name="ecuador">
 			<div class="preview">
 
@@ -123,33 +84,8 @@
 		</div>
 		</article>
 	</div>
+	</div>
+</div>
 	
-	</section>
-</template>
-
-
-
-<template name="cv">
-	<section>
-	<div>
-	<h1>CV</h1>
-
-	<iframe class="scribd_iframe_embed" src="https://www.scribd.com/embeds/246427236/content?start_page=1&view_mode=scroll&show_recommendations=true" data-auto-height="false" data-aspect-ratio="undefined" scrolling="no" id="doc_85828" width="100%" height="600px" frameborder="0"></iframe>
-	</div>
-	</section>
-</template>
-
-<template name="contact">
-	<section id="contact">
-		<div>
-		<h1>Contact</h1>
-		<form>
-			<input type="text" placeholder="name">
-			<input type="email" placeholder="email">
-			<textarea rows="10" placeholder="message"></textarea>
-			<input type="submit">
-
-		</form>
-	</div>
 	</section>
 </template>
