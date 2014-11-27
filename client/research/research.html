@@ -2,48 +2,92 @@
 
 	<section id="research">
 		<div class="grid grid-pad">
-		<div class="article-wrapper">
-		<h1>Research</h1>
-		<div class="col-1-3">
-		<article data-name="bolivia">
-			<div class="preview">
-			<img src="images/research/DryingCocaYungas.jpg">
- 			<div class="desc">
- 			<h3>Community-based coca control, environmental change, and drug war legacies in Bolivia</h3>
+			<div class="article-wrapper">
+				<h1>Research</h1>
+				{{> Template.dynamic template=getActiveArticle }}
+				<div class="col-1-3">
+					<article data-name="bolivia">
+						<div class="preview">
+							<img src="images/research/DryingCocaYungas.jpg">
+ 							<div class="desc">
+ 								<h3>Community-based coca control, environmental change, and drug war legacies in 	Bolivia</h3>
 
- 			<p>This project brings attention to Bolivia’s new approach to coca control and more generally to some of the grounded and embodied dynamics of illegal and illicit substance control.</p>
+ 								<p>This project brings attention to Bolivia’s new approach to coca control and more generally to some of the grounded and embodied dynamics of illegal and illicit substance control.</p>
+ 							</div>
+ 						</div>
+					</article>
+				</div>
 
- 			<!-- <img width="30" src="images/research/BO.png"> -->
- 			</div>
- 			</div>
- 			<div class="">
-			<p><span class="first_letter">U</span>nder reforms by coca union leader turned Bolivia’s President Evo Morales, registered coca producers can now produce a limited amount of the culturally and medicinally important coca plant without fear of violent eradication. According to the United Nations, the new “social control” method of controlling coca leaf production has lead to a marked decline in net land under coca cultivation in 2011, 2012, and 2013. And yet Bolivia’s approach to what has long been the United States’ primary tactic of narcotics control in Andean South America, namely coca eradication, has gone mostly unrecognized and remains poorly understood elsewhere.</p>
-			
-			<p class="standalone">In order to better understand the logics behind, failures of, and possibilities for drug control reform in the Americas, this project brings attention to Bolivia’s new approach and more generally to some of the grounded and embodied dynamics of illegal and illicit substance control.</p> 
+				<div class="col-1-3">
+					<article data-name="honduras">
+						<div class="preview">
+							<img src="images/research/honduras.jpg">
+							<div class="desc">
+					 			<h3>Drug trafficking, deforestation, and dispossession in Honduras</h3>
+					 			<p><span class="first_letter">C</span>ollaborators and I offer evidence that drug trafficking through parts of remote Central American forests is intensifying deforestation and the dispossession of people from their land.</p>
+						 	</div>
+						</div>
+					</article>
+				</div>
 
-			<p>I investigate this approach in its broader geopolitical context, with an emphasis on how it affects the lives and livelihoods of coca growers and sellers who have long been impacted by international coca eradication efforts. In doing so, I investigate the intertwined processes of livelihood adaptations, shifting human-coca relations, environmental change, and the micro-politics of coca unions. </p>
 
-			<div class="citations">
-				<p>See:<br> 
-					<ul>
-					
-						<li>Pearson, Z. & T. Grisaffi. <a href="http://fpif.org/washington-snubs-bolivia-drug-policy-reform" target="_blank">Washington Snubs Bolivia on Drug Policy Reform, Again</a>. <em>Foreign Policy in Focus</em> and <em>The Nation.com</em>.</li>
-					</ul>
-				</p>
+				<div class="col-1-3">
+					<article data-name="ecuador">
+						<div class="preview">
+
+							<img src="images/research/ecuador.jpg">
+							<div class="desc">
+								<h3>Conservation, oil extraction, and socio-environmental justice in Ecuador</h3>
+								<p>Oil company activities and conservation priorities in my study region were compatible in several key ways- this threatens Waorani belonging in their ancestral territory.</p>
+							</div>
+						</div>
+					</article>
+				</div>
+			</div>
+		</div>
+	</section>
+</template>
+
+
+<template name="bolivia">
+	<div>
+		<img src="images/research/DryingCocaYungas.jpg">
+			<div>
+			<h3>Community-based coca control, environmental change, and drug war legacies in Bolivia</h3>
+
+			<p>This project brings attention to Bolivia’s new approach to coca control and more generally to some of the grounded and embodied dynamics of illegal and illicit substance control.</p>
+
+			<!-- <img width="30" src="images/research/BO.png"> -->
 			</div>
 			</div>
-		</article>
-		</div>		
-		<div class="col-1-3">
-		<article data-name="honduras">
-			<div class="preview">
+			<div>
+		<p><span class="first_letter">U</span>nder reforms by coca union leader turned Bolivia’s President Evo Morales, registered coca producers can now produce a limited amount of the culturally and medicinally important coca plant without fear of violent eradication. According to the United Nations, the new “social control” method of controlling coca leaf production has lead to a marked decline in net land under coca cultivation in 2011, 2012, and 2013. And yet Bolivia’s approach to what has long been the United States’ primary tactic of narcotics control in Andean South America, namely coca eradication, has gone mostly unrecognized and remains poorly understood elsewhere.</p>
+		
+		<p class="standalone">In order to better understand the logics behind, failures of, and possibilities for drug control reform in the Americas, this project brings attention to Bolivia’s new approach and more generally to some of the grounded and embodied dynamics of illegal and illicit substance control.</p> 
+
+		<p>I investigate this approach in its broader geopolitical context, with an emphasis on how it affects the lives and livelihoods of coca growers and sellers who have long been impacted by international coca eradication efforts. In doing so, I investigate the intertwined processes of livelihood adaptations, shifting human-coca relations, environmental change, and the micro-politics of coca unions. </p>
+
+		<div class="citations">
+			<p>See:<br> 
+				<ul>
+				
+					<li>Pearson, Z. & T. Grisaffi. <a href="http://fpif.org/washington-snubs-bolivia-drug-policy-reform" target="_blank">Washington Snubs Bolivia on Drug Policy Reform, Again</a>. <em>Foreign Policy in Focus</em> and <em>The Nation.com</em>.</li>
+				</ul>
+			</p>
+		</div>
+	</div>
+</template>
+
+<template name="honduras">
+
+	<article data-name="honduras">
+		<div class="">
 			<img src="images/research/honduras.jpg">
-			<div class="desc">
- 			<h3>Drug trafficking, deforestation, and dispossession in Honduras</h3>
- 			<p><span class="first_letter">C</span>ollaborators and I offer evidence that drug trafficking through parts of remote Central American forests is intensifying deforestation and the dispossession of people from their land.</p>
- 			</div>
- 			</div>
- 			<div class="showOnClick">
+	
+	 		<h3>Drug trafficking, deforestation, and dispossession in Honduras</h3>
+	 			
+
+
 			<p><span class="first_letter">C</span>ollaborators and I offer evidence that drug trafficking through parts of remote Central American forests is intensifying deforestation and the dispossession of people from their land. We highlight the complicity of failed drug control policies in this dynamic, and argue for drug policy reform that would put an end to violent and futile militarized ‘drug war’ strategies that harm people and their homelands.</p>
 
 			<div class="citations">
@@ -59,21 +103,21 @@
 				</ul>
 			</div>
 		</div>
-		</article>
-		</div>
+	</article>
+</template>
 
-
-		<div class="col-1-3">
-		<article data-name="ecuador">
-			<div class="preview">
+<template name="ecuador">
+	<article data-name="ecuador">
+		<div>
 
 			<img src="images/research/ecuador.jpg">
-			<div class="desc">
-			<h3>Conservation, oil extraction, and socio-environmental justice in Ecuador</h3>
-			<p>Oil company activities and conservation priorities in my study region were compatible in several key ways- this threatens Waorani belonging in their ancestral territory.</p>
+			<div>
+				<h3>Conservation, oil extraction, and socio-environmental justice in Ecuador</h3>
+				<p>Oil company activities and conservation priorities in my study region were compatible in several key ways- this threatens Waorani belonging in their ancestral territory.</p>
 			</div>
-			</div>
-			<div class="showOnClick">
+		</div>
+		
+		<div>
 			<p><span class="first_letter">A</span>fter living and working as a research assistant in Ecuador for most of 2007 and 2008, I returned for graduate research in 2009 to investigate the relationship between Waorani indigenous residents, and an oil company in Ecuador’s Yasuní National Park. In a paper currently under review I argue that oil company activities and conservation priorities in my study region were compatible in several key ways, and that this threatens Waorani belonging in their ancestral territory.</p>
 			<div class="citations">
 				<ul>
@@ -82,10 +126,5 @@
 				</ul>
 			</div>
 		</div>
-		</article>
-	</div>
-	</div>
-</div>
-	
-	</section>
+	</article>
 </template>

@@ -2,14 +2,24 @@
 <head>
 	<title>Zoe Pearson</title>
 	<link href='http://fonts.googleapis.com/css?family=Noto+Sans:400,700' rel='stylesheet' type='text/css'>
+  <meta/>
 </head>
 <body>
-	{{>nav}}
+	
 	{{>welcome}}
-	{{>about}}
-	{{>research}}
-	{{>cv}}
-	{{>contact}}
+  {{>active}}
+  {{>footer}}
 </body>
 
 
+<template name="active">
+  {{>nav}}
+  {{> Template.dynamic template=getActive }}
+</template>
+
+
+<template name="footer">
+  <div style="background:black; width:100%; padding:5px; color: white;">
+    <p> Zoe </p>
+  </div>
+</template>

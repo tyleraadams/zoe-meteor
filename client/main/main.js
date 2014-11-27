@@ -23,8 +23,8 @@ var MainTemplate = (function(){
 
 })();
 
-Template.main.rendered = MainTemplate.onRender;
+// Template.main.rendered = MainTemplate.onRender;
 
-Template.main.events({
-	'click .preview': MainTemplate.showFullArticle
-});
+// Template.main.events({
+	// 'click .preview': MainTemplate.showFullArticle
+// });
