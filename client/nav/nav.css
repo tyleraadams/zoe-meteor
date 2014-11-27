@@ -1,5 +1,13 @@
 /*-------- NAV ------*/
 
+/* color scheme: 
+	#ECF0F1 white smoke
+	#F2D8BB wheat
+	#fad67f gold
+	#e14d41 indian red
+	#19698c teal
+*/
+
 nav li {
 	display:inline;
 	margin-right:50px;
@@ -21,4 +29,9 @@ nav {
 
 nav a {
 	color:white;
+	cursor:pointer;
+}
+
+nav a:hover {
+  color:	#e14d41;
 }

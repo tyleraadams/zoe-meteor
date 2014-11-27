@@ -85,6 +85,8 @@
 
 .education > h3 {
   border-bottom: 1px solid #403d39;
+  width: 103.75%;
+  padding-right: 20px;
 }
 
 
@@ -110,6 +112,6 @@
   #about-text { border-top: 1px solid #403d39; padding-top: 12px; }
 
   .template-title { text-align:left; }
-  
+
 }
  
