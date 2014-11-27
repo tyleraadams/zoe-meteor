@@ -20,8 +20,15 @@ a {
 	/*color:white;*/
 }
 
+h1, h3 {
+	/*font-size:2em;*/
+	margin:0;
+	padding:0;
+
+}
+
 h1 {
-	font-size:2em;
+	font-size:2.5em;
 }
 
 

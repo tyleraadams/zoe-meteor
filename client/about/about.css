@@ -1,4 +1,6 @@
 
+
+
 .profile_photo {
 	background: url('images/zoe.jpg') no-repeat 20% center;
 	background-size: cover;
@@ -6,7 +8,7 @@
 	height:250px;
 	border-radius:50%;
 	border:5px solid #e14d41;
-  margin:0 0 0 auto;
+  margin:12px 0 0 auto;
 	
 }
 
@@ -20,9 +22,10 @@
 
 #about-text>p {
   width:95%;
-  margin-top:36px;
+  margin-top: 18px;  
   margin-left:auto;
   margin-right:auto;
+  font-size:1.1em;
 }
 
 #about-text p:first-child {
@@ -62,7 +65,51 @@
   border-right:1px solid #403d39;
 }
 
-.left_col ul {
+.education ul {
   width: 90%;
-  float: right
+  float: right;
+  margin:0;
+  list-style-type: circle;
+  list-style-position: inside;
+  /*text-align: right;*/
 }
+
+.education li {
+
+}
+
+.education {
+  margin-top: 12px;
+  font-size:0.9em;
+}
+
+.education > h3 {
+  border-bottom: 1px solid #403d39;
+}
+
+
+@media(max-width: 760px) {
+  .profile_photo {
+    margin-right:auto !important;
+  }
+
+  .education {
+    float:none !important;
+    text-align:left !important;
+    padding-left:24px; 
+    padding-right:24px;
+  }
+  .education ul {
+    /*border-bottom:1px solid #403d39;*/
+    /*padding:none;*/
+    float:none;
+  }
+
+  .left_col { border-right:none; }
+
+  #about-text { border-top: 1px solid #403d39; padding-top: 12px; }
+
+  .template-title { text-align:left; }
+  
+}
+ 
