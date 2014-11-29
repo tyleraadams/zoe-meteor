@@ -1,4 +1,4 @@
-article { margin-bottom:12px; }
+article { margin-bottom:48px; }
 article img { width: 100%; }
 /*article .full img { width: 100%; }*/
 article .full { 
@@ -7,7 +7,10 @@ article .full {
   border: 3px solid #29185E;
   padding:12px;
   background:snow;
+
 }
+
+
 
 /*.article-wrapper { background:#29185E }*/
 

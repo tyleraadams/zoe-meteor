@@ -9,23 +9,23 @@
 }
 
 #welcome>.filter {
-	content:"";
-	/*background:#19698c;*/
+/*	content:"";
+	background:#19698c;
 	position:absolute;
 	width:100%;
 	height:100vh;
-	opacity:0.66;
+	opacity:0.66;*/
 }
 
 #welcome>h1, #welcome>p {
 	z-index:1000;
 	position:absolute;
-	top:300px;
+	top:50vh;
 	left:50px;
 }
 
 #welcome>p {
-	top: 400px;
+	top: 55vh;
 	line-height: 1.2em;
 
 }
