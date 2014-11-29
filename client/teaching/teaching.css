@@ -6,11 +6,18 @@
 	margin-bottom:12px;
 	/*text-align: center;*/
 	/*width:90%;*/
-	margin:0 auto;
+	margin-left:12px;
 	padding-left:12px;
-
+	margin-top:0;margin-bottom:0;margin-right:0;
+	background:snow;
 }
 
+.experience ul, .employment ul {
+	margin-bottom:0;
+}
+
+#teaching .experience {margin-bottom:24px;}
+#teaching .experience { background: #B1ACFF; padding-right:0; padding-bottom:0;}
 .principal {
 	font-size:1.1em;
 	background:#355E0B; color:snow;
@@ -26,7 +33,19 @@
 	color:black;
 }
 .principal li:nth-child(even){
-	 background:#3C7832; color:snow; 
+	background:#3C7832; 
+	color:snow; 
 }
 
 #teaching .experience li:nth-child(even){ background:#3C7832; color:snow; }
+
+.employment {
+	line-height:25px; 
+	background: #B1ACFF; 
+	padding-right:0 !important; 
+	padding-bottom:0 !important; 
+	margin-right: 24px; 
+	margin-right: 48px;
+}
+
+.employment li {margin-left:12px;}
