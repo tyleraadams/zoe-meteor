@@ -14,7 +14,9 @@
 
 <template name="active">
   {{>nav}}
-  {{> Template.dynamic template=getActive }}
+  <div id="active">
+    {{> Template.dynamic template=getActive }}
+  </div>
 </template>
 
 

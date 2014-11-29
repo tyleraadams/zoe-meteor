@@ -5,12 +5,7 @@ var MainTemplate = (function(){
 	}
 
 	function showFullArticle(e) {
-		
-		$(e.target).parent().parent().parent().find('.showOnClick').css('display', 'inline-block');
-		debugger
-		$(e.target).parent().parent().parent().click(function(e){
-			$(e.target).find('.showOnClick').css('display', 'none');
-		})
+
 
 	}
 

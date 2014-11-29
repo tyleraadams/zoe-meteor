@@ -7,10 +7,19 @@ var ActiveTemplate = (function(){
   function setActive(e) {
     var activeSection = $(e.target).attr('data-section');
     Session.set('active', activeSection);
+    scrollToActive();
   }
 
   function getActive() {
     return Session.get('active');
+  }
+
+  function scrollToActive() {
+    if ($('#active')) {
+      $('html,body').animate({
+        scrollTop: $('#active').offset().top - 50
+    }, 500);
+    }
   }
 
 

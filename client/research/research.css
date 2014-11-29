@@ -1,9 +1,18 @@
 article img { width: 100%; }
+/*article .full img { width: 100%; }*/
+article .full { 
+  width: 66%; 
+  margin:0 auto;
+}
 
-.showOnClick {
-	display:none;
+article .full img {
+  max-height:400px;
+  width:auto;
+  margin: 0 auto;
+  /*text-align: center;*/
 }
 
 article .preview p {
 	font-size:0.8em;
 }
+
