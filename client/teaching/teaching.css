@@ -1,0 +1,31 @@
+#teaching h3 { background: #B1ACFF; color:snow; padding-left:12px;}
+
+#teaching .experience li {
+	/*border-top:1px solid grey;*/
+	/*border-bottom:1px solid grey;*/
+	margin-bottom:12px;
+	text-align: center;
+	width:90%;
+	margin:0 auto;
+
+}
+
+.principal {
+	font-size:1.1em;
+	background:#355E0B; color:snow;
+	padding-left:12px; 
+}
+
+
+
+.principal li{
+	padding-left:24px;
+	font-size:0.75em;
+	background:snow;
+	color:black;
+}
+.principal li:nth-child(even){
+	 background:#3C7832; color:snow; 
+}
+
+#teaching .experience li:nth-child(even){ background:#3C7832; color:snow; }

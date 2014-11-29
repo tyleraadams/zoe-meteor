@@ -20,7 +20,7 @@ nav li:last-child {
 nav {
 	padding:12px;
 	position:fixed;
-	background:#19698c;
+	background:#29185E ;
 	width:100%;
 	top:0;
 	z-index:1001;
@@ -33,5 +33,5 @@ nav a {
 }
 
 nav a:hover {
-  color:	#e14d41;
+  color:	#B1ACFF;
 }
