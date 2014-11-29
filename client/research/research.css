@@ -4,7 +4,12 @@ article img { width: 100%; }
 article .full { 
   width: 66%; 
   margin:0 auto;
+  border: 3px solid #29185E;
+  padding:12px;
+  background:snow;
 }
+
+/*.article-wrapper { background:#29185E }*/
 
 article .full img {
   /*max-height:400px;*/
@@ -24,9 +29,9 @@ article .preview p {
 
 
 article .citations {
-  color: #f4f3ef;
+  color: snow;
   /* background: #ECF0F1; */
-  background: #403d39;
+  background: #B1ACFF;
   padding:12px;
   margin-top:12px;
 }
