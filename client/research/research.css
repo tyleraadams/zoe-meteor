@@ -27,6 +27,7 @@ article .preview p {
 	font-size:0.8em;
 }
 
+article .preview:hover { opacity:0.6; cursor:pointer; }
 
 article .citations {
   color: snow;
