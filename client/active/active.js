@@ -40,5 +40,5 @@ Template.active.getActive =  ActiveTemplate.getActive;
 Template.active.scrollToActive =  ActiveTemplate.scrollToActive;
 
 Template.active.events({
-  'click nav a, click .call-to-action a': ActiveTemplate.setActive
+  'click nav a, tap nav a, click .call-to-action a, tap .call-to-action a': ActiveTemplate.setActive
 });
