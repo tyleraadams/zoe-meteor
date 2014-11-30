@@ -1,0 +1,62 @@
+#contact input, #contact textarea{
+	width:66%;
+	display:block;
+	/*height:25px;*/
+	border:none;
+	outline:none;
+	background:white;
+	resize:none;
+	border-radius:5px;
+	margin:10px auto 0 auto;
+	padding:10px;
+	
+}
+
+#contact input[type="submit"] {
+	background:#EBC137;
+	color:snow;
+	
+}
+#contact input[type="submit"]:hover {
+	background:#BD8025;
+
+	
+}
+
+#contact .left{
+	text-align: right;
+	background-color:#2A5B84; 
+	/*background:url('images/contact/YungasHillside.jpg') no-repeat center center; */
+	/*background-size:cover; */
+	color:snow;
+	/*-webkit-filter: blur(1px) grayscale(40%);*/
+	text-align: center;
+}
+
+#contact .right {
+	background:#AAC4D1; 
+	color:snow;
+	padding-bottom:16px;
+	padding-top:16px;
+
+}
+#contact .col-6-12 .filter {
+/*	background-color:#3C7832; 
+	width:40%;
+	height:150px;
+	position:absolute;
+	opacity: 0.5 ;
+	top:10px;*/
+}
+
+/*#contact .col-6-12:before {
+	content:"";
+	background-color:#3C7832; 
+	position:absolute;
+	top:120vh;
+	left:5vw;
+	opacity:0.2;
+	width:50%;
+	height:300px;
+	z-index: 1000;
+}*/

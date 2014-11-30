@@ -1,0 +1,37 @@
+/*-------- NAV ------*/
+
+/* color scheme: 
+	#ECF0F1 white smoke
+	#F2D8BB wheat
+	#fad67f gold
+	#e14d41 indian red
+	#19698c teal
+*/
+
+nav li {
+	display:inline;
+	margin-right:50px;
+}
+
+nav li:last-child {
+	margin-right:0;
+}
+
+nav {
+	padding:12px;
+	position:fixed;
+	background:#2A5B84 ;
+	width:100%;
+	top:0;
+	z-index:1001;
+	text-align: center;
+}
+
+nav a {
+	color:white;
+	cursor:pointer;
+}
+
+nav a:hover {
+  color:#EBC137;
+}

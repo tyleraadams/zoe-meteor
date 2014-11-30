@@ -1,0 +1,146 @@
+
+
+
+.profile_photo {
+	background: url('images/zoe.jpg') no-repeat 20% center;
+	background-size: cover;
+	width:250px;
+	height:250px;
+	border-radius:50%;
+	border:5px solid #2A5B84;
+  margin:12px auto 0 auto;
+	
+}
+
+
+#about-text {
+  /*border-left: 1px solid;*/
+  /*border-right: 1px solid;*/
+  padding-left:24px;
+  padding-right:24px;
+  margin-bottom:48px;
+}
+
+#about-text>p {
+  width:95%;
+  margin-top: 18px;  
+  margin-left:auto;
+  margin-right:auto;
+  /*font-size:0.8em;*/
+}
+
+#about-text p:first-child {
+  /*margin-top:84px;*/
+}
+
+#about .template-title {
+  /*text-align: right;*/
+  /*margin-right:12px;*/
+  /*margin-right:-12px;*/
+  margin-top:0;
+  color: #f4f3ef;
+  /*background: #ECF0F1;*/
+  background: #AAC4D1;
+  padding:12px;
+  /*width:110%;*/
+  /*position:relative;*/
+  /*right:6%;*/
+}
+
+.standalone {
+  /*font-size: 1.2em; */
+  color: snow;
+  /* background: #ECF0F1; */
+  background: #BD8025;
+  /* padding: 12px 12px 1px 12px; */
+  /* border-radius: 12px; */
+  /* text-align: center; */
+  /* display: inline-block; */
+  /* width: 110%; */
+  /*margin-left: -24px;*/
+  /*margin-right: 0;*/
+  padding-right: 24px;
+  /*position:relative;*/
+  /*top:154px;*/
+  line-height:20px;
+}
+
+.left_col {
+  text-align: center;
+  /*border-right:1px solid #403d39;*/
+}
+
+.left_col a {
+  display:block;
+}
+
+.education ul {
+  /*width: 90%;*/
+  /*float: right;*/
+  margin:0;
+  list-style-type: circle;
+  list-style-position: inside;
+
+  /*text-align: right;*/
+}
+
+.education li {
+
+}
+
+.education {
+  margin-top: 24px;
+  font-size:0.9em;
+
+}
+
+.education > h3 {
+  /*border-bottom: 1px solid #403d39;*/
+  /*width: 103.75%;*/
+  padding-right: 20px;
+}
+
+.links { margin-left:auto; margin-right:auto; text-align: center; padding:0 12px 12px; background: #925818;}
+.links h3 {
+  margin-top:24px;
+  color: #f4f3ef;
+  /*background: #ECF0F1;*/
+  background: #925818;
+  /*width:103.75%;*/
+  padding-right:12px;
+}
+.links a { display:block; background:snow; }
+
+.links a:nth-child(even) { background:#AAC4D1; color:snow; }
+.links a:hover { color:#2A5B84; }
+
+
+@media(max-width: 760px) {
+  .profile_photo {
+    margin-right:auto !important;
+  }
+
+  .education {
+    float:none !important;
+    text-align:left !important;
+    padding-left:24px; 
+    padding-right:24px;
+  }
+  .education ul {
+    /*border-bottom:1px solid #403d39;*/
+    /*padding:none;*/
+    float:none;
+  }
+
+  .left_col { border-right:none; }
+
+  #about-text { border-top: 1px solid #403d39; padding-top: 12px; }
+
+  .template-title { text-align:left; width:100%;  margin-right:0px; padding-left:12px; padding-right:0; position:static;}
+
+  .links { text-align: left;}
+
+  .links h3 {width:100%; padding-left:12px; padding-right:0;}
+
+}
+ 
