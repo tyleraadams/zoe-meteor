@@ -51,7 +51,7 @@
   /*font-size: 1.2em; */
   color: snow;
   /* background: #ECF0F1; */
-  background: #BD8025;
+  background: #2A5B84;
   /* padding: 12px 12px 1px 12px; */
   /* border-radius: 12px; */
   /* text-align: center; */
@@ -100,18 +100,19 @@
   padding-right: 20px;
 }
 
-.links { margin-left:auto; margin-right:auto; text-align: center; padding:0 12px 12px; background: #925818;}
+.links { margin-left:auto; margin-right:auto; text-align: center; padding:0 12px 12px; background: #2A5B84;}
+
 .links h3 {
   margin-top:24px;
   color: #f4f3ef;
   /*background: #ECF0F1;*/
-  background: #925818;
+  background: #2A5B84;
   /*width:103.75%;*/
   padding-right:12px;
 }
-.links a { display:block; background:snow; }
+.links a { display:block; background:snow; color:black; }
 
-.links a:nth-child(even) { background:#AAC4D1; color:snow; }
+.links a:nth-child(even) { background:#AAC4D1;  }
 .links a:hover { color:#2A5B84; }
 
 

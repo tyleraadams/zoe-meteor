@@ -35,10 +35,10 @@
 }
 .principal li:nth-child(even){
 	background:#AAC4D1; 
-	color:snow; 
+	
 }
 
-#teaching .experience li:nth-child(even){ background:#AAC4D1; color:snow; }
+#teaching .experience li:nth-child(even){ background:#AAC4D1;  }
 
 .employment {
 	line-height:25px; 

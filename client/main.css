@@ -97,4 +97,16 @@ section>div {
 
 .call-to-action { cursor:pointer; }
 
+@media (max-width : 480px) {
+  #welcome>p,#welcome>h1  {
+    position:absolute;
+    font-size:24px !important;
+    text-align: left;
+  }
+  #welcome>p{ font-size:18px !important; }
+  nav a {display:block;  background:#2A5B84 ; margin-top:0;}
+  nav {position:static; background:none;}
+  .full img {width:100% !important;}
+}
+
 
