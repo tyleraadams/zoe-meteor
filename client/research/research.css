@@ -2,28 +2,38 @@ article { margin-bottom:48px; }
 article img { width: 100%; }
 /*article .full img { width: 100%; }*/
 article .full { 
-  width: 66%; 
+  width: 90%; 
   margin:0 auto;
-  border: 3px solid #29185E;
+  /*border: 3px solid #29185E;*/
   padding:12px;
-  background:snow;
+  /*background:snow;*/
 
 }
 
 
-
+article .full h3 { 
+  font-size:1.5em; /*width:110%;*/ 
+  background:#2A5B84; 
+  color:white; 
+  padding:12px; 
+  text-align: center;
+  margin-bottom:24px;
+}
 /*.article-wrapper { background:#29185E }*/
 
 article .full img {
   /*max-height:400px;*/
   width:50%;
-  margin: 0 auto;
+  margin: 12px auto;
   display:block;
+  /*border:10px solid #2A5B84;*/
   /*text-align: center;*/
 }
 
 article .full img:first-child {
-  width:100%;
+  /*width:100vw;*/
+  /*position:absolute;*/
+  /*left:0;*/
 }
 
 article .preview p {
@@ -35,7 +45,7 @@ article .preview:hover { opacity:0.6; cursor:pointer; }
 article .citations {
   color: snow;
   /* background: #ECF0F1; */
-  background: #B1ACFF;
+  background: #AAC4D1;
   padding:12px;
   margin-top:12px;
 }
@@ -45,7 +55,9 @@ article .citations li {
   margin-top:12px;
 }
 
-.call-to-action {
+article .citations a { color: #2A5B84}
+
+#research .call-to-action {
   text-align: center;
   font-size:1.25em;
 }

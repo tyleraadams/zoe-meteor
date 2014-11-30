@@ -7,8 +7,8 @@
 	width:250px;
 	height:250px;
 	border-radius:50%;
-	border:5px solid #355E0B;
-  margin:12px 0 0 auto;
+	border:5px solid #2A5B84;
+  margin:12px auto 0 auto;
 	
 }
 
@@ -18,6 +18,7 @@
   /*border-right: 1px solid;*/
   padding-left:24px;
   padding-right:24px;
+  margin-bottom:48px;
 }
 
 #about-text>p {
@@ -29,44 +30,44 @@
 }
 
 #about-text p:first-child {
-  margin-top:84px;
+  /*margin-top:84px;*/
 }
 
 #about .template-title {
-  text-align: right;
+  /*text-align: right;*/
   /*margin-right:12px;*/
-  margin-right:-12px;
+  /*margin-right:-12px;*/
   margin-top:0;
   color: #f4f3ef;
   /*background: #ECF0F1;*/
-  background: #7D5CEB;
+  background: #AAC4D1;
   padding:12px;
-  width:110%;
-  position:relative;
-  right:6%;
+  /*width:110%;*/
+  /*position:relative;*/
+  /*right:6%;*/
 }
 
 .standalone {
   /*font-size: 1.2em; */
   color: snow;
   /* background: #ECF0F1; */
-  background: #7D5CEB;
+  background: #BD8025;
   /* padding: 12px 12px 1px 12px; */
   /* border-radius: 12px; */
   /* text-align: center; */
   /* display: inline-block; */
   /* width: 110%; */
-  margin-left: -24px;
-  margin-right: 0;
-  padding-left: 36px;
-  position:relative;
-  top:154px;
+  /*margin-left: -24px;*/
+  /*margin-right: 0;*/
+  padding-right: 24px;
+  /*position:relative;*/
+  /*top:154px;*/
   line-height:20px;
 }
 
 .left_col {
-  text-align: right;
-  border-right:1px solid #403d39;
+  text-align: center;
+  /*border-right:1px solid #403d39;*/
 }
 
 .left_col a {
@@ -74,7 +75,7 @@
 }
 
 .education ul {
-  width: 90%;
+  /*width: 90%;*/
   /*float: right;*/
   margin:0;
   list-style-type: circle;
@@ -99,16 +100,19 @@
   padding-right: 20px;
 }
 
+.links { margin-left:auto; margin-right:auto; text-align: center; padding:0 12px 12px; background: #925818;}
 .links h3 {
   margin-top:24px;
   color: #f4f3ef;
   /*background: #ECF0F1;*/
-  background: #7D5CEB;
-  width:103.75%;
+  background: #925818;
+  /*width:103.75%;*/
   padding-right:12px;
 }
+.links a { display:block; background:snow; }
 
-
+.links a:nth-child(even) { background:#AAC4D1; color:snow; }
+.links a:hover { color:#2A5B84; }
 
 
 @media(max-width: 760px) {

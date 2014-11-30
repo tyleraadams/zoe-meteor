@@ -7,6 +7,7 @@ var ActiveTemplate = (function(){
   function setActive(e) {
     var activeSection = $(e.target).attr('data-section');
     Session.set('active', activeSection);
+    Session.set('activeArticle', null);
     scrollToActive();
   }
 
@@ -27,7 +28,8 @@ var ActiveTemplate = (function(){
   return {
     onRender: onRender,
     setActive: setActive,
-    getActive: getActive
+    getActive: getActive,
+    scrollToActive: scrollToActive
   }
 
 })();
@@ -35,7 +37,8 @@ var ActiveTemplate = (function(){
 Template.active.rendered = ActiveTemplate.onRender;
 Template.active.setActive = ActiveTemplate.setActive;
 Template.active.getActive =  ActiveTemplate.getActive;
+Template.active.scrollToActive =  ActiveTemplate.scrollToActive;
 
 Template.active.events({
-  'click nav a': ActiveTemplate.setActive
+  'click nav a, click .call-to-action a': ActiveTemplate.setActive
 });

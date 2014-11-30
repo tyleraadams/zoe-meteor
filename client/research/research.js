@@ -7,7 +7,7 @@ var ResearchTemplate = (function(){
   function setActiveArticle(e) {
     var activeArticle = $($(e.target).closest('article')).attr('data-name');
     Session.set('activeArticle', activeArticle);
-    console.log(activeArticle);
+    Template.active.scrollToActive();
   }
 
   function getActiveArticle() {

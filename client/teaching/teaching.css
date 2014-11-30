@@ -1,4 +1,4 @@
-#teaching h3 { background: #B1ACFF; color:snow; padding-left:12px;}
+#teaching h3 { background: #AAC4D1; color:snow; padding-left:12px;}
 
 #teaching .experience li {
 	/*border-top:1px solid grey;*/
@@ -17,10 +17,11 @@
 }
 
 #teaching .experience {margin-bottom:24px;}
-#teaching .experience { background: #B1ACFF; padding-right:0; padding-bottom:0;}
+#teaching .experience { background: #AAC4D1; padding-right:0; padding-bottom:0;}
 .principal {
 	font-size:1.1em;
-	background:#355E0B; color:snow;
+	background:#2A5B84; 
+	color:snow;
 	padding-left:12px; 
 }
 
@@ -33,15 +34,15 @@
 	color:black;
 }
 .principal li:nth-child(even){
-	background:#3C7832; 
+	background:#AAC4D1; 
 	color:snow; 
 }
 
-#teaching .experience li:nth-child(even){ background:#3C7832; color:snow; }
+#teaching .experience li:nth-child(even){ background:#AAC4D1; color:snow; }
 
 .employment {
 	line-height:25px; 
-	background: #B1ACFF; 
+	background: #AAC4D1; 
 	padding-right:0 !important; 
 	padding-bottom:0 !important; 
 	margin-right: 24px; 

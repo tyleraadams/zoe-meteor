@@ -16,7 +16,7 @@ body {
 	line-height:30px;
 	color: black;
 	/*background: #ECF0F1;*/
-	background: #FEFEFF;
+	background: #FEFAE1;
 }
 
 ul {
@@ -26,11 +26,11 @@ ul {
 
 a {
 	text-decoration: none;
-	color:#355E0B; 
+	color:#EBC137; 
 }
 
 a:hover {
-    color:#3C7832;
+  color:#BD8025;
 }
 
 h1, h3 {
@@ -66,8 +66,8 @@ section>div {
   /*margin-top:0;*/
   color: #f4f3ef;
   /*background: #ECF0F1;*/
-  background: #7D5CEB;
-  padding:12px;
+  background: #AAC4D1;
+  padding:12px 0;
   /*width:110%;*/
   /*position:relative;*/
   /*right:6%;*/
@@ -82,7 +82,7 @@ section>div {
 
 #footer { 
 	color:white; 
-	background:#B1ACFF; 
+	background:#2A5B84; 
 	width:100%; 
 	/*height:100px;*/
 	text-align: center;
@@ -94,5 +94,7 @@ section>div {
 	padding:0;
 	margin:0;
 }
+
+.call-to-action { cursor:pointer; }
 
 
