@@ -1,7 +1,7 @@
 var MainTemplate = (function(){
 
 	function onRender() {
-
+		
 	}
 
 	function showFullArticle(e) {
