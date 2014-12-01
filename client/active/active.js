@@ -2,6 +2,7 @@ var ActiveTemplate = (function(){
 
   function onRender() {
     Session.set('active', null);
+    GAnalytics.pageview();
   }
 
   function setActive(e) {
